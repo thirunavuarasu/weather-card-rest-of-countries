@@ -1,0 +1,24 @@
+.card{
+    width: 18rem;
+    background:blueviolet;
+    display: flex;
+    justify-content: space-between;
+    transition: transform 0.3s;
+
+}
+.card-header{
+    background-color:aquamarine; 
+    color: White;
+    text-align: center;
+}
+
+.container{
+    background-color:chocolate ;
+    margin: auto;
+}
+
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+ 
